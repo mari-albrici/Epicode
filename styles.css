@@ -1,0 +1,107 @@
+body {
+    background-image: linear-gradient(#f1faee, #a8dadc, #457b9d, #1d3557);
+    margin-left: 100px;
+    margin-right: 100px;
+    background-attachment: fixed;
+}
+
+.titolo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    color: #1d3557;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #1d3557;
+    margin-top: 0px;
+}
+
+#imgprofilo {
+    height: 300px;
+    padding-right: 200px;
+    padding-top: 25px;
+}
+
+.flex-container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.Istruzione {
+    border: 5px #1d3557 solid;
+    margin: 20px;
+    width: 85%;
+    background-color: #f1faee;
+    font-size: 15px;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid #457b9d;
+}
+
+.facts {
+    padding-left: 15px;
+    margin-left: 30px;
+    justify-self: flex-end;
+    background-color: white;
+    font-size: 20px;
+    width: 45%;
+    color: #1d3557;
+}
+
+.lavoro {
+    border: 5px #1d3557 solid;
+    margin: 20px;
+    width: 85%;
+    background-color: #f1faee;
+    font-size: 15px;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #a8dadc;
+    margin: 8px;
+}
+
+.contacts {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1faee;
+    text-align: center;
+    border: 0px;
+    vertical-align: middle;
+}
+
+a:link {
+    color: #f1faee;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+a:visited {
+    color: #f1faee;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+#visionboard {
+    width: 450px;
+}
